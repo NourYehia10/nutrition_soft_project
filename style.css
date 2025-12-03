@@ -1,0 +1,151 @@
+/* =======================
+   GLOBAL STYLES
+======================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+}
+
+h1, h2, h3 {
+    color: #27ae60;
+}
+
+/* =======================
+   HEADER + NAVBAR
+======================= */
+header {
+    background: #27ae60;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* =======================
+   HERO SECTION (HOME PAGE)
+======================= */
+.hero {
+    background: #2ecc71;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    color: #27ae60;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background: #f0f0f0;
+}
+
+/* =======================
+   CONTENT SECTIONS
+======================= */
+.content-section {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ccc;
+}
+
+.content-section ul {
+    margin-left: 20px;
+}
+
+/* =======================
+   PLANS CARDS
+======================= */
+.plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.plan-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ccc;
+    text-align: center;
+}
+
+.btn-plan {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-plan:hover {
+    opacity: 0.8;
+}
+
+/* =======================
+   CONTACT FORM
+======================= */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: 0.8;
+}
+
+/* =======================
+   FOOTER
+======================= */
+footer {
+    background: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
